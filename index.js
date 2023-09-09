@@ -14,7 +14,7 @@ app.get("/api", (req, res) => {
   //validate query parameters
   if (!slack_name || !track) {
     return res.status(400).json({
-      error: "Slackname and track not found",
+      error: "Slack username and track not found",
     });
   }
 
