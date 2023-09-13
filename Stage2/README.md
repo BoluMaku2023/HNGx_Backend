@@ -1,4 +1,4 @@
-# Person API
+# PublicUser API
 
 <div>
     <p align="center">
@@ -39,7 +39,7 @@ The Person API is a simple service for managing person data. It allows you to cr
 - Create a `.env file in the project root directory and set the following environment variables:
   ```sh
   PORT=<desired-port-number>
-  MONGODB_URI=<your-mongodb-connection-string>
+  DB_URL=<your-mongodb-connection-string>
   ```
 
 ## Running the API
